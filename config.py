@@ -21,10 +21,10 @@ class DebugConfig(Config):
         self.device = "cuda"
         # model
         self.seed = 6
-        self.embedding_size = 768
+        self.embedding_size = 256
         self.nlayers = 1
         self.bidirectional = True
-        self.hidden_size = 768
+        self.hidden_size = 512
         self.max_length = 18
         self.batch_size = 128
         self.num_filters = 64
@@ -81,10 +81,10 @@ class YelpConfig(Config):
         self.device = "cuda"
         # model
         self.seed = 11
-        self.embedding_size = 768
+        self.embedding_size = 256
         self.nlayers = 1
         self.bidirectional = True
-        self.hidden_size = 768
+        self.hidden_size = 512
         self.max_length = 18
         self.batch_size = 128
         self.num_filters = 64
@@ -140,7 +140,7 @@ class ImdbConfig(Config):
         self.device = "cuda"
         # model
         self.seed = 16
-        self.embedding_size = 512
+        self.embedding_size = 256
         self.nlayers = 1
         self.bidirectional = True
         self.hidden_size = 512
@@ -200,10 +200,10 @@ class GYAFCConfig(Config):
         self.device = "cuda"
         # model
         self.seed = 11
-        self.embedding_size = 768
+        self.embedding_size = 256
         self.nlayers = 1
         self.bidirectional = True
-        self.hidden_size = 768
+        self.hidden_size = 512
         self.num_filters = 64
         self.max_length = 35
         self.batch_size = 32
